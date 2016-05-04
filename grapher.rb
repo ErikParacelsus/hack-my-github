@@ -24,7 +24,7 @@ test_pattern()
 
 MASK = PATTERN.split(//).map{|c| c == 'X'}
 
-DAYSTART = Date.new(2013,12,2)
+DAYSTART = Date.new(2015,12,2)
 DAYEND   = DAYSTART + (PATTERN.size*4) # 2015-12-20
 puts DAYSTART, DAYEND
 
